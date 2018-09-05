@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+section{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.left{
+	flex: 0 0 200px;
+	border: solid red;
+}
+.middle{
+	flex: 0 0 200px;
+	border: solid green;
+}
+.right{
+	flex: 1 1 auto;
+	/*width: 200px;*/
+	border: solid yellow;
+}

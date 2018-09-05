@@ -1,0 +1,21 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.left{
+	float: left;
+	width: 200px;
+	border: solid red;
+}
+.middle{
+	float: left;
+	width: calc(100% - 200px - 200px);
+	border: solid green;
+}
+.right{
+	float: right;
+	width: 200px;
+	border: solid yellow;
+}

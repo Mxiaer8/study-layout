@@ -1,0 +1,15 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.left{
+	position: absolute;
+	width: 200px;
+	border: solid red;
+}
+.right{
+	margin-left: 200px;
+	border: solid yellow;
+}
